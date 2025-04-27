@@ -5,7 +5,7 @@ Machine Learning in Python with scikit-learn
 Breast Cancer dataset analysis (classification problem)
 Author: Irina Chelysheva
 
-Date: November 4, 2024
+Date: March 10th, 2025
 Breast Cancer Wisconsin (Diagnostic) Data Set extracted from UCI Machine Learning Repository
 (https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic))
 """
@@ -27,7 +27,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 import os
 print("Current Working Directory:", os.getcwd())
-os.chdir('ML_DL_intro_python_MT2024-main')
+os.chdir('ML_DL_intro_python_HT2025_3-main')
 
 # 2. Load, explore and prepare the dataset
 url = "https://raw.githubusercontent.com/selva86/datasets/master/BreastCancer.csv"

@@ -5,7 +5,7 @@ Machine Learning in Python with scikit-learn
 COVID dataset analysis (regression problem)
 Author: Irina Chelysheva
 
-Date: November 4, 2024
+Date: March 10th, 2025
 COVID dataset extracted from OurWorldInData (https://github.com/owid/covid-19-data)
 """
 
@@ -24,7 +24,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 # 2. Set working directory, load, explore and prepare the dataset
-os.chdir('/Users/irina/Downloads/ML_Python_course_MSD/ML_Python_MT2024')
+os.chdir('ML_DL_intro_python_HT2025_3-main')
 df = pd.read_csv('owid_covid_for_ML_short.csv')
 print("Total data points",df.shape[0])
 print("Total number of features(as number of columns) are ", df.shape[1])
@@ -90,7 +90,7 @@ for pair in multicollinearity_pairs:
 # 6. Choosing the best regression model using selected features
 # Subset data based on feature selection
 X_a = X[["cases_per_million", "cases", "median_age", "gdp_per_capita"]]
-Xa_train, Xa_test, ya_train, ya_test = train_test_split(X_a, y, test_size=0.3, random_state=1)
+Xa_train, Xa_test, ya_train, ya_test = train_test_split(X_a, y, test_size=0.3, random_state=1) #rewrite it differently next time
 
 # Define models for evaluation
 models = [
@@ -137,7 +137,7 @@ print("\nBest Model Evaluation on Test Set:")
 print(f"Mean Squared Error (MSE): {mse:.4f}")
 print(f"Mean Absolute Error (MAE): {mae:.4f}")
 print(f"R^2 Score: {r2:.4f}")
-print(f"Mean of ya_train: {ya_train.mean():.4f}")
+print(f"Mean of ya_test: {ya_test.mean():.4f}")
 
 
 # 9. Plot Actual vs. Predicted Values
