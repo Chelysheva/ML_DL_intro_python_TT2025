@@ -1,6 +1,6 @@
 # Introduction to Machine Learning and Deep Learning in Python (2-Day Course)
 
-## By [Irina Chelysheva](https://github.com/Chelysheva) ([Oxford Profile](https://www.wadham.ox.ac.uk/people/irina-chelysheva)) and [Srinivasa Rao Rao](https://github.com/sraorao) ([Oxford Profile](https://www.nds.ox.ac.uk/team/srinivasa-rao))
+## By [Irina Chelysheva](https://github.com/Chelysheva) and [Srinivasa Rao Rao](https://github.com/sraorao) ([Oxford Profile](https://www.nds.ox.ac.uk/team/srinivasa-rao))
 
 ## Course Aim
 
@@ -10,8 +10,8 @@ This course provides a practical introduction to applying machine learning and d
 
 You are expected to attend two half-day sessions:
 
-- **Monday, 04 November**: 09:30 - 13:00
-- **Wednesday, 06 November**: 09:30 - 13:00
+- **Monday, 28th April**: 10:00 - 13:00
+- **Wednesday, 30th April**: 10:00 - 13:00
 
 ## Requirements
 - Python 3.8 or above
